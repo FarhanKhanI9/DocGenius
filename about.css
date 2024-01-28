@@ -1,0 +1,83 @@
+
+  
+  .about-content {
+    color:aliceblue;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .app-info {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(23, 26, 218, 0.349);
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .app-details {
+    text-align: left;
+    margin-right: 20px; /* Add margin for spacing between text and image */
+  }
+  
+  .app-info h2 {
+    font-size: 28px;
+  }
+  
+  .app-info p {
+    font-size: 18px;
+  }
+  
+  .app-info img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 20px;
+  }
+  
+  .developer-info {
+    color:aliceblue;
+    display: flex;
+    text-align: center;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    flex-direction: column;
+    background-color: rgba(23, 26, 218, 0.349);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px; /* Increase space below the div */
+    width: 110%;
+    max-width: 1010px;
+  }
+  
+  .developer-info h2 {
+    font-size: 28px;
+  }
+  
+  .developer {
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .developer p {
+    font-size: 18px;
+  }
+  
+  .developer img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .developer img:hover {
+    transform: scale(1.1);
+  }
+  
+  
