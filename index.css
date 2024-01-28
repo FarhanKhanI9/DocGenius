@@ -11,7 +11,6 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
         background-attachment: fixed;
     }
 
@@ -124,9 +123,9 @@
             font-size: 85%;
         }
 
-        header {
+/*         header {
             height: 100vh;
-        }
+        } */
 
         li {
             padding: 1rem 1.1rem;
