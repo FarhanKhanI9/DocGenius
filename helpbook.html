@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="helpbook.css">
     <title>HelpBook - DocGenius</title>
+    <style>
+
+        .heading-with-dot {
+          display: inline-block;
+          position: relative;
+          padding-left: 15px; 
+        }
+      
+        .heading-with-dot::before {
+          content: "\2022";  
+          position: absolute;
+          left: 0;
+        }
+      </style>
 </head>
 <body>
     <header>
@@ -35,46 +49,53 @@
             <br>
             <h1 style="color: aqua;">HelpBook Page</h1><br>
         </center>
-
+        <br><br>
         <!-- First div -->
         <div class="image-content-container">
-            <img src="image1.jpg" alt="Image 1" height="300" width="300">
+            <img src="C111.jpg" alt="Image 1" height="300" width="300"  border="2">
             <div class="text-content">
-                <h2>Content Title 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo auctor, varius elit id, sodales erat.</p>
+                <h2 class="heading-with-dot">How to access your Google Drive</h2><br><br>
+                <p class="spaceafterline">1. First go to NewFeatures menu and in that select GDrive Panel.</p>
+                <p class="spaceafterline">2. Then a GoogleDrive Panel window will come up, in that click on "Login with Google" button.</p>
+                <p class="spaceafterline">3. After clicking on "Login with Google" button, it will directly redict you to web browser to select the google account you want to access drive of. And also open a window to paste the authorizzation code.</p>
+                <p class="spaceafterline">4. Then after selecting your google account Copy the authorizzation code and put it in the Input tab.</p>
+                <p class="spaceafterline">5. It will show login successful in the GoogleDrive Panel.</p>
             </div>
         </div>
+        
 <br><br><br>
-        <!-- Second div -->
-        <div class="image-content-container">
+        
+        <!-- <div class="image-content-container">
             
             <div class="text-content">
-                <h2>Content Title 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo auctor, varius elit id, sodales erat.</p>
+                <h2 class="heading-with-dot">Content Title 2</h2><br><br>
+                <p class="spaceafterline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo auctor, varius elit id, sodales erat.</p>
             </div>
             <img src="modern-1.png" alt="Image 2" height="300" width="300">
         </div>
+
 <br><br><br>
-        <!-- Third div -->
+       
         <div class="image-content-container">
-            <img src="image3.jpg" alt="Image 3" height="300" width="300">
+            <img src="image3.jpg" alt="Image 3" height="300" width="300" >
             <div class="text-content">
-                <h2>Content Title 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo auctor, varius elit id, sodales erat.</p>
+                <h2 class="heading-with-dot">Content Title 3</h2><br><br>
+                <p class="spaceafterline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget justo auctor, varius elit id, sodales erat.</p>
             </div>
         </div>
-<br><br><br>
-        <!-- Fourth div -->
+
+<br><br><br> -->
+        
         <div class="image-content-container">
             <div class="text-content">
-                <h2>How to set light/dark themes.</h2>
+                <h2 class="heading-with-dot">How to set light/dark themes.</h2><br>
                 <br>
-                <p>1. Go to the View Menu of the app.</p>
-                <p>2. There two options for Light and Dark themes.</p>
-                <p>2. Click on the one you wanna apply. Done.</p>
-                <p>Note hte same procedures for CodeEditor</p>
+                <p class="spaceafterline">1. Go to the View Menu of the app.</p>
+                <p class="spaceafterline">2. You will see two options one for Light Theme and one for Dark Themes.</p>
+                <p class="spaceafterline">3. Choose the one you wanna applyand click on it. The editor will change its appearance in that specific theme.</p>
+                <br><p class="spaceafterline">Note the same procedures to set themes in CodeEditorBeta.</p>
             </div>
-            <img src="image4.jpg" alt="Image 4" height="300" width="300">
+            <img src="C444.png" alt="Image 4" height="300" width="300"  border="2">
         </div>
 
     </div>
