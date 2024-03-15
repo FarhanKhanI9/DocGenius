@@ -7,11 +7,15 @@
   
   .app-info {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
     background-color: rgba(23, 26, 218, 0.349);
     padding: 20px;
     border-radius: 24px;
+
+  }
+  .conteeet{
+    flex-direction: column;
   }
 
   .app-details {

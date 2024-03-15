@@ -1,0 +1,27 @@
+
+.content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(23, 26, 218, 0.349);
+    color: rgb(253, 253, 253);
+    font-size:large;
+}
+
+.image-content-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.image-content-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.image-content-container .text-content {
+    flex: 1;
+}
