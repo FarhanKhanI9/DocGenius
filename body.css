@@ -31,15 +31,13 @@ p {
 .feature {
     background: rgba(23, 26, 218, 0.349);
     padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
     border-radius: 10px;
 }
-
 .feature:hover {
-    transform: scale(1.1); /*size */
-    transition: all .5s ease-in-out
+    transform: scale(1.1); 
+    transition: all .3s ease-in
 }
-
 h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -55,26 +53,3 @@ h2 {
     margin-top: 2rem;
 }
 
-
-/* CSS */
-.button-72 {
-  align-items: center;
-  background-color: initial;
-  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
-  border-radius: 42px;
-  border-width: 0;
-  display: inline-block;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    color: #fff;
-    background-color: #27ae60;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-}
-
-.button-72:hover {
-  background-image: linear-gradient(#B384C9, #391F5B 50%);
-  transform: scale(1.1);
-  transition: all .3s ease-in;
-}
